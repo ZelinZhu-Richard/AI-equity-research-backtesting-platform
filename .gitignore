@@ -1,0 +1,31 @@
+# Python environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Mac/system files
+.DS_Store
+
+# Local data artifacts
+data/raw/
+data/processed/
+*.duckdb
+*.parquet
+*.csv
+
+# Generated outputs
+logs/
+reports/*.png
+reports/*.html
+reports/*.pdf
+
+# Secrets / local config
+.env
+.env.*
